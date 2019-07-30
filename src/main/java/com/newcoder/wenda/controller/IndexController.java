@@ -24,4 +24,5 @@ public class IndexController {
                           @RequestParam(value = "key",defaultValue = "hsc",required = false) String key){
         return String.format("Profile page of %s  /  %d,t:%d  k:%s",groupId,userId,type,key);
     }
+    public void test(){}
 }
