@@ -16,6 +16,7 @@ public class IndexController {
     public String index(){
         return "Hello NowCoder";
 
+
     }
 
     @RequestMapping(path = {"/profile/{groupId}/{userId}"})
